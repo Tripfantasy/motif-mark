@@ -13,7 +13,7 @@ args = get_args()
 fasta_file = args.fasta
 motif_file = args.motif
 
-import re
+
 
 class FastaParse:
     def __init__(self, filename):
